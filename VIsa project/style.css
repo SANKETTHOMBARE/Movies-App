@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body
+{
+    background: url("bg.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container{
+     width: 100vw;
+     height: 100vh;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+.card{
+    width: 500px;
+    height: 300px;
+    border-top: 1px solid silver;
+    border-left: 1px solid silver;e
+    border-radius: 10px;
+    cursor: pointer;
+    backdrop-filter: blur(7px);
+    box-shadow: 5px 5px 5px rgba(50, 50, 50, 0.5);
+
+}
+
+.visa{
+    width: 80px;
+    height: 80px;
+    background: url("visa.png");
+    filter: brightness(0.8);
+    background-size: cover;
+    position: relative;
+    top: 10px;
+    left: 380px;
+}
+
+
+
+
+
+
+
+
+
+
